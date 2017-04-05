@@ -51,15 +51,6 @@ Files:
 
 * `uchiwa.json` > Config for setting up the uchiwa dashboard and _datacenters_
 
-## Installation tutorial
-
-I'll try install diferent kinds of install:
-
-1. Debian Docker Images
-* Install RabbitMQ as transport on Debian Docker.
-* Install Redis as datastore on Debian Docker.
-* Install Sensu client, api and server on Debian Docker.
-* Install Uchiwa as dashboard on Debian Docker. 
 2. CentOS Docker Images
 * Install RabbitMQ as transport on CentOS Docker.
 * Install Redis as datastore on CentOS Docker.
