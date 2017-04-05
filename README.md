@@ -25,17 +25,31 @@ Configuration Files Directory:
 
 Files:
 
-* `redis.json` > file config for strings connections to redis (data).
-* `rabbitmg.json` > file config for strings connections to rabbitmq (transport).
+* `redis.json` > Config for strings connections to redis (data).
+* `rabbitmg.json` > Config for strings connections to rabbitmq (transport).
 * `transport.json` > All of the Sensu processes require configuration to tell them how to connect to the configured transport.
 * `[plugin].json` > Whatever plugin installed (sensu-install) need a config file in the server.
 
 ### Sensu Api
 
+* `api.json` > Config for string connections to the api server.
+
 ### Sensu Client
+
+* `client.json` > Config for strings to clients connections.
+
+_Note: This config file could be ambiguous, because it's setting up in the hosts clients and in the sensu server, as agent monitoring for a standar and navite sensu setup and monitoring (see documentation) or if you want to reuse the Nagios Plugins you only add the host in the client config in the Sensu Server.
+
 
 ### Uchiwa Dashboard
 
+Configuration Files Directory:
+
+* `/etc/sensu/`
+
+Files: 
+
+* `uchiwa.json` > Config for setting up the uchiwa dashboard and _datacenters_
 
 ## Installation tutorial
 
