@@ -12,8 +12,8 @@ PONG
 ```
 
 ##  Next steps are 
-* Add the enable and start command to dockerfile
-* Migrate dockerfile to compose
-* Mount volume to persist data
+- [ ] Add the enable and start command to dockerfile
+- [ ] Migrate dockerfile to compose
+- [ ] Mount volume to persist data
 
-_Note: Verify config file for IP, port and limit open files in /etc/redis/redis.conf_
+> Note: Verify config file for IP, port and limit open files in /etc/redis/redis.conf_
