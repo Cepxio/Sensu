@@ -2,9 +2,9 @@
 
 ## Installation tutorial
 
-I'll try install diferent kinds of install:
+I'll try install diferent kinds of install
 
-_Debian Docker Images
+### Debian Docker Images
 
 * Install RabbitMQ as transport on Debian Docker.
 * Install Redis as datastore on Debian Docker.

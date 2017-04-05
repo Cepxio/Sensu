@@ -22,6 +22,6 @@ $ rabbitmqctl status
 ```
 
 ##  Next steps are 
-* Add the enable and start command to dockerfile
-* Migrate dockerfile to compose
-* Mount volume to persist data
+- [ ] Add the enable and start command to dockerfile
+- [ ] Migrate dockerfile to compose
+- [ ] Mount volume to persist data

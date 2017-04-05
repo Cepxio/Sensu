@@ -46,7 +46,7 @@ Executing /usr/sbin/update-rc.d uchiwa enable
 
 ## Configure Sensu client
 
-_If you are behind a proxy server, you'll need modify the sensu-intall script and add the proxy info for gem_
+> If you are behind a proxy server, you'll need modify the sensu-intall script and add the proxy info for gem_
 
 * Edit de file /opt/sensu/embedded/lib/ruby/gems/2.3.0/gems/sensu-0.28.4/exe/sensu-install line 65
 and add de --http-proxy. i.e
@@ -56,8 +56,8 @@ gem_command = "gem install --http-proxy http://x.x.x.x:8080 #{gem_name}"
 
 ## Sensu Plugins (i.e)
 
-http://sensu-plugins.io/plugins/
-http://sensu-plugins.io/docs/installation_instructions.html
+> http://sensu-plugins.io/plugins/
+> http://sensu-plugins.io/docs/installation_instructions.html
 
 e.g
 

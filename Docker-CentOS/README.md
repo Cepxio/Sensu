@@ -2,9 +2,10 @@
 
 ## Installation tutorial
 
-I'll try install diferent kinds of installations:
+I'll try install diferent kinds of installations
 
-_CentOS Docker Images
+### CentOS Docker Images
+
 * Install RabbitMQ as transport on CentOS Docker.
 * Install Redis as datastore on CentOS Docker.
 * Install Sensu client, api and server on CentOS Docker.

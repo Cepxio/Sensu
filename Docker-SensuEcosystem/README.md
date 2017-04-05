@@ -2,9 +2,10 @@
 
 ## Installation tutorial
 
-I'll try install diferent kinds of installations:
+I'll try install diferent kinds of installations
 
-_Sensu Docker Images
+### Sensu Docker Images
+
 * Install Sensu from Docker
 * Install RabbitMQ from Docker
 * Install Redis from Docker
