@@ -21,14 +21,14 @@ Therefore, in the next, we describe you which files you need setup for.
 
 Configuration Files Directory:
 
-`/etc/sensu/conf.d/`
+* `/etc/sensu/conf.d/`
 
 Files:
 
-`redis.json` > file config for strings connections to redis (data).
-`rabbitmg.json` > file config for strings connections to rabbitmq (transport).
-`transport.json` > All of the Sensu processes require configuration to tell them how to connect to the configured transport.
-`[plugin].json` > Whatever plugin installed (sensu-install) need a config file in the server.
+* `redis.json` > file config for strings connections to redis (data).
+* `rabbitmg.json` > file config for strings connections to rabbitmq (transport).
+* `transport.json` > All of the Sensu processes require configuration to tell them how to connect to the configured transport.
+* `[plugin].json` > Whatever plugin installed (sensu-install) need a config file in the server.
 
 ### Sensu Api
 
