@@ -3,7 +3,7 @@
 
 In this repository I'll add documents, files, and templates for install Sensu Distribuited.
 
-## Hightlights
+## Thinks to keep in mind
 
 You can see the _Sensu_ arquitecture in the [website](https://sensuapp.org/docs/0.28/overview/architecture.html)
 to understand the installation steps.
@@ -11,16 +11,25 @@ to understand the installation steps.
 I couldn't get all explanations in the documents pages on Sensu Website, 
 so I let some notes about conf files and how to sort it.
 
-When you install Sensu, you install the _core server_, that bring with it the Server, 
+When you install Sensu you install the _core server_, that bring with it the Server,
 the Api and the Client and you'll can enable the three components or the Server and the Api or only the Client, it depends on which config files you will setup.
+So, the conf directory is the same for all de components. 
+The change is in the directive in the json config file.
+Therefore, in the next, we describe you which files you need setup for.
 
 ### Sensu Server
 
 Configuration Files Directory:
 
-/etc/sensu/conf.d/
+`/etc/sensu/conf.d/`
 
-			
+Files:
+
+`redis.json` > file config for strings connections to redis (data).
+`rabbitmg.json` > file config for strings connections to rabbitmq (transport).
+`transport.json` > All of the Sensu processes require configuration to tell them how to connect to the configured transport.
+`[plugin].json` > Whatever plugin installed (sensu-install) need a config file in the server.
+
 ### Sensu Api
 
 ### Sensu Client
